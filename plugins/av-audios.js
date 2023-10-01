@@ -916,7 +916,7 @@ if (/^Api yano$/i.test(m.text) ) {
     this.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
    }
   
-return ! 
+return !0
  }
  
 export default handler
